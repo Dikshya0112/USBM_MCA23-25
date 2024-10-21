@@ -19,7 +19,7 @@ console.log('final price is', finalPrice);//2980
 
 let productPrice=2000
 let salexTaxRate=10
-let salesTax= (productPrice*salexTaxRate)/100
+let salesTax= productPrice*(salexTaxRate/100)
 console.log('sales tax is', salesTax)
 let totalPrice = productPrice + salesTax
 console.log('total price after adding sales tax :', totalPrice)
