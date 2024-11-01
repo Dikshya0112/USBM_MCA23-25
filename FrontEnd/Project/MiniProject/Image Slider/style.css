@@ -1,0 +1,14 @@
+
+body{
+    background-color: gray;
+}
+img{
+    height: 90vh;
+     box-shadow: 0 0 5px rgb(0, 0, 0) ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
