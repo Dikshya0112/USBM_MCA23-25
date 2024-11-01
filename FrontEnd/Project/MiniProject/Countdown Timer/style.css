@@ -1,0 +1,46 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-position: center ;
+    color:#efc47e ;
+
+}
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 270px; 
+  
+}
+button{
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #efc47e;
+}
+button:hover{
+    background-color: #efc47e;
+    color: white;
+    box-shadow: 0 0 5px #da9b35;
+
+}
+
+legend{
+    font-size: 30px;
+}
+#timer {
+    margin-top: 170px;
+    height: 200px;
+}
+.left , .right {
+    color: white;
+    background-color: #efc47e;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 3.5px #da9b35 ;
+}
