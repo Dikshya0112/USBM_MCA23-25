@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-Blink</title>
+    <style>
+        body{
+      background: url(bg.png);
+            
+        }
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h1><u>MERN STACK USBM 2023-2025</u></h1>
+    <script>
+
+let blinkText = document.getElementsByTagName('h1')[0];
+
+setInterval(() => {
+
+if (blinkText.style.visibility=='hidden') {
+    blinkText.style.visibility ='visible'
+}
+else{
+    blinkText.style.visibility = 'hidden'
+}
+}, 1000);
+
+    </script>
+</body>
+</html>
