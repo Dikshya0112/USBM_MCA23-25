@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Up Notification</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url(green-natural.webp);
+            background-size: cover;
+            /* background-position: center; */
+        }
+
+        div {
+            margin-top: 20px;
+            position: relative;
+            left: 13.5cm;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+            width: 500px;
+            background-color: white;
+            color:  cadetblue;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 20px;
+            border: 2px dashed cadetblue;
+        }
+
+        button {
+            background-color: cadetblue;
+            padding: 20px 30px;
+            font-size: 20px;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: white;
+            color: cadetblue;
+            border: 2px dashed cadetblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <button onclick="showNotification()">
+        Show Notification
+    </button>
+    <script>
+
+        function showNotification() {
+            let notify = document.createElement('div')
+            notify.classList.add('notification');
+            notify.innerHTML = `This is USBM Mern Stack`
+            document.body.appendChild(notify);
+            setTimeout(() => {
+                notify.style.display = 'none'
+            }, 5000)
+
+
+        }
+    </script>
+</body>
+
+</html>
