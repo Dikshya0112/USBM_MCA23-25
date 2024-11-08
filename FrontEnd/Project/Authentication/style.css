@@ -4,27 +4,47 @@
     box-sizing: border-box;
    
 }
-html,body{
+html, body {
     font-size: 1.5rem;
-    font-family: "Danfo", serif;}
+    font-family: "Danfo", serif;
+    color: cadetblue;
+    background-color: beige;
+}
 nav{
     display: flex;
     justify-content: space-around;
     background-color: cadetblue;
 }
+h2{
+    text-align: center;
+    margin-top: 2cm;
+}
 nav li{
     list-style: none;
+    color: beige;
+}
+form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+}
+input{
+     width: 6cm;
+    height: 1.3cm;
+
 }
 a, button{
     color: cadetblue;
 }
 button{
-    font-size: 1.5rem;
+ font-size: 1.5rem;
 background: white;
 border: 2px solid cadetblue;
 padding: 5px 20px;
 font-family: "Danfo", serif;}
 button:hover{
     background-color: cadetblue;
-    color: white;
+    color: beige;
 }

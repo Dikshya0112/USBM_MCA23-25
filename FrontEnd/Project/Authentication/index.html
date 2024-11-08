@@ -21,37 +21,39 @@
         <li>Login</li>
     </nav>
     <main>
-        <section id="signUpSec">     
+        <section id="signUpSec">
             <div class="signUpForm">
-                <h2>Sign Up</h2>
+                <h2><u>Sign Up</u></h2>
                 <form onsubmit="return false">
-                    <label for="">Email</label>
-                    <input type="email" name="userEmail" id="userEmail" /><br>
+                    <label for=""> User Email</label>
+                    <input type="email" name="userEmail" id="userEmail" />
                     <label for="">User Name</label>
-                    <input type="text" name="username" id="username"><br>
+                    <input type="text" name="username" id="username">
 
                     <label for="">Password</label>
                     <input type="password" name="password" id="password"><br>
 
-                 
-                    <button  id="signupBtn">Sign Up</button>
+
+                    <button id="signupBtn">Sign Up</button>
                 </form>
             </div>
         </section>
         <section id="loginSec" style="display: none">
-            <div class="loginForm">
-                <h2>Login Form</h2>
-                <label for="loginUsername">Useremail:</label>
-                <input type="text" id="loginUsername" name="loginUsername" required placeholder="Username" />
-                <label for="loginPassword">Password:</label>
-                <input type="password" id="loginPassword" name="loginPassword" required placeholder="Password" />
-                <button id="loginBtn">Login</button>
-            </div>
+         
+                <form  onsubmit="return false" class="loginForm">
+                    <h2><u>Login Form</u></h2>
+                    <label for="loginUsername">Useremail:</label>
+                    <input type="text" id="loginUsername" name="loginUsername" required placeholder="Username" />
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" name="loginPassword" required placeholder="Password" /><br>
+                    <button id="loginBtn">Login</button>
+                </form>
+       
         </section>
         <section id="dashboard" style="display: none">
             <h2 id="usernameDisplay"></h2>
             <button id="logoutBtn">Logout</button>
-          </section>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>
