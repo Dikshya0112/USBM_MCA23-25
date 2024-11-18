@@ -1,5 +1,5 @@
 // Mathematical Operator:
-/*let num1 = 5;
+let num1 = 5;
 let num2 = 3;
 let result1 = num1 + num2; // Addition Operator
 let result2 = num1 - num2; // Subtraction
@@ -157,4 +157,4 @@ console.log(!5); // Boolean
 // }
 // rl.close()
 // });
-*/
+
